@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>모이장 친구들 박스 | 제주 로컬 선물박스</title>
+  <meta name="description" content="제주 로컬푸드 친구들이 밤마다 모이는 장, 모이장. 당근·고사리·한라봉·메밀·현무암·월동무·감귤 친구들을 한 박스에 담았어요.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+
+  <!-- 1. HERO -->
+  <section class="hero" aria-label="모이장 친구들 박스">
+    <img class="hero__img" src="images/detail_hero.jpg" alt="제주 밤, 현무암 돌담 위에 놓인 모이장 선물박스">
+    <div class="hero__shade"></div>
+    <div class="hero__top">
+      <img class="hero__logo" src="images/moijang_logo.png" alt="모이장 로고">
+      <h1 class="hero__title display">오늘 밤,<br>제주 친구들이 모였어요</h1>
+    </div>
+    <div class="hero__bottom">
+      <p class="hero__product">모이장 친구들 박스</p>
+      <p class="hero__price">제주 로컬 선물박스 · 29,000원</p>
+      <span class="hero__scroll" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <!-- 2. STORY -->
+  <section class="section story">
+    <span class="eyebrow reveal">OUR STORY</span>
+    <p class="story__quote display reveal">뻔한 감귤 기념품 말고,<br><em>진짜 제주</em>를 선물하고 싶었어요</p>
+    <p class="lead reveal">제주 동네 하나로마트 한 켠, 로컬푸드 코너엔 여행객은 잘 모르는 보물들이 있어요.
+      구좌 당근, 한라산 고사리, 겨울 바닷바람 맞은 월동무까지.
+      이 친구들이 밤마다 오름과 곶자왈, 현무암 돌담 아래 모여 작은 장을 연다면 어떨까?
+      그렇게 <b>모이장</b>이 시작됐어요.</p>
+    <figure class="photo reveal">
+      <img src="images/detail_story.jpg" alt="등불 아래 제주 로컬 농산물이 담긴 밤의 장터" loading="lazy">
+    </figure>
+    <p class="story__caption reveal">밤이 되면 열리는 작은 동네 장, 모이장</p>
+  </section>
+
+  <!-- 3. LOGO GATHER -->
+  <section class="section section--night gather center" id="gather">
+    <span class="eyebrow reveal">BRAND LOGO</span>
+    <h2 class="display reveal">흩어져 있던 자모가<br>모이면, 모이장</h2>
+    <p class="lead reveal">로고의 자음·모음 하나하나가 제주 로컬푸드 친구예요.<br>서로 조금씩 삐뚤빼뚤, 자기 자리를 찾아 모였어요.</p>
+    <div class="gather__stage" data-gather aria-label="자모 친구들이 모여 모이장 로고가 되는 애니메이션"></div>
+    <p class="gather__hint">친구를 눌러보면 누군지 알려줘요</p>
+    <button class="gather__replay" type="button" data-replay>↺ 다시 모이기</button>
+    <ul class="jamo-legend" data-legend></ul>
+  </section>
+
+  <!-- 4. FRIENDS -->
+  <section class="section friends" id="friends">
+    <span class="eyebrow reveal">MEET THE FRIENDS</span>
+    <h2 class="display reveal">일곱 친구를 소개할게요</h2>
+    <p class="lead reveal">각자 다른 동네에서 왔지만, 모두 제주 땅과 바람이 키운 친구들이에요.</p>
+    <figure class="photo reveal">
+      <img src="images/detail_friends.jpg" alt="달빛 아래 모닥불 주위에 모인 모이장 자모 캐릭터들" loading="lazy">
+    </figure>
+    <div class="friend-tabs" role="tablist" aria-label="친구 선택" data-tabs></div>
+    <article class="friend-card" role="tabpanel" data-card aria-live="polite">
+      <img class="friend-card__img" data-card-img alt="">
+      <div class="friend-card__body">
+        <span class="friend-card__jamo" data-card-jamo></span>
+        <h3 class="friend-card__name" data-card-name></h3>
+        <p class="friend-card__origin" data-card-origin></p>
+        <p class="friend-card__desc" data-card-desc></p>
+      </div>
+    </article>
+  </section>
+
+  <!-- 5. BOX -->
+  <section class="section box">
+    <span class="eyebrow reveal">WHAT'S IN THE BOX</span>
+    <h2 class="display reveal">박스를 열면,<br>친구들이 모여 있어요</h2>
+    <p class="lead reveal">먹거리 6종과 제주 돌 소품 1종, 그리고 친구 소개 카드까지. 한 박스에 제주 한 동네를 담았어요.</p>
+    <figure class="photo reveal">
+      <img src="images/mockup_box_open.jpg" alt="모이장 박스 구성품 7종이 담긴 열린 박스" loading="lazy">
+    </figure>
+    <ul class="box-list reveal" data-boxlist></ul>
+    <figure class="photo reveal">
+      <img src="images/mockup_box_closed.jpg" alt="로고 스티커와 곶자왈 그린 띠지를 두른 크라프트 선물박스" loading="lazy">
+    </figure>
+  </section>
+
+  <!-- 6. GALLERY -->
+  <section class="section section--night" id="gallery">
+    <span class="eyebrow reveal">PRODUCTS</span>
+    <h2 class="display reveal">하나하나,<br>친구 얼굴이 붙어 있어요</h2>
+    <p class="lead reveal">라벨마다 그 친구 캐릭터가 들어 있어 꺼내 놓기만 해도 귀여워요. 사진을 누르면 크게 볼 수 있어요.</p>
+    <div class="gallery" data-gallery></div>
+  </section>
+
+  <!-- 7. GIFT -->
+  <section class="section gift">
+    <span class="eyebrow reveal">GIFT MOMENTS</span>
+    <h2 class="display reveal">이럴 때 건네기 좋아요</h2>
+    <div class="moments">
+      <div class="moment reveal"><span class="moment__num">1</span><div><h3>여행 마지막 날 기념품</h3><p>공항 가기 전, 여행의 밤을 그대로 담아 가요. 캐리어에 쏙 들어가는 크기예요.</p></div></div>
+      <div class="moment reveal"><span class="moment__num">2</span><div><h3>부모님께 드리는 제주 선물</h3><p>고사리·월동무 말랭이·메밀차까지, 어른들이 더 반기는 진짜 로컬 구성.</p></div></div>
+      <div class="moment reveal"><span class="moment__num">3</span><div><h3>친구 집들이 &amp; 생일</h3><p>현무암 코스터와 캐릭터 라벨 덕분에 받는 순간부터 사진 찍고 싶어지는 선물.</p></div></div>
+    </div>
+    <figure class="photo reveal">
+      <img src="images/detail_gift.jpg" alt="두 손으로 모이장 선물박스를 건네는 장면" loading="lazy">
+    </figure>
+  </section>
+
+  <!-- 8. INFO -->
+  <section class="section info">
+    <span class="eyebrow">PRODUCT INFO</span>
+    <h2 class="display">상품 정보</h2>
+    <table class="info-table">
+      <tr><th>상품명</th><td>모이장 친구들 박스 (제주 로컬 선물박스)</td></tr>
+      <tr><th>가격</th><td>29,000원</td></tr>
+      <tr><th>구성</th><td>구좌 당근잼 · 한라산 건고사리 · 한라봉청 · 제주 메밀차 · 현무암 코스터 · 월동무 말랭이 · 감귤칩 + 친구 소개 카드</td></tr>
+      <tr><th>패키지</th><td>크라프트 박스 · 로고 스티커 · 곶자왈 그린 띠지</td></tr>
+      <tr><th>보관</th><td>직사광선을 피해 실온 보관 / 잼·청은 개봉 후 냉장 보관</td></tr>
+      <tr><th>배송</th><td>주문 후 2~3일 이내 출고 (제주 출고)</td></tr>
+    </table>
+    <p class="notice">※ 본 페이지는 브랜드 디자인 미니프로젝트용으로 제작된 가상 상품 상세페이지입니다.</p>
+  </section>
+
+  <footer class="footer">
+    <img src="images/moijang_logo.png" alt="모이장">
+    <p>제주 로컬 친구들이 밤마다 모이는 장 · MOIJANG</p>
+  </footer>
+</main>
+
+<!-- sticky buy bar -->
+<div class="buybar" role="region" aria-label="구매">
+  <div class="qty">
+    <button type="button" data-qty="-1" aria-label="수량 빼기">−</button>
+    <output data-qty-out>1</output>
+    <button type="button" data-qty="1" aria-label="수량 더하기">+</button>
+  </div>
+  <div class="buybar__price" data-total>29,000원</div>
+  <button class="buybar__cta" type="button" data-cart>장바구니 담기</button>
+</div>
+
+<div class="lightbox" data-lightbox role="dialog" aria-modal="true" aria-label="제품 사진 크게 보기">
+  <button class="lightbox__close" type="button" data-lb-close aria-label="닫기">×</button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-nav="-1" aria-label="이전">‹</button>
+  <img data-lb-img alt="">
+  <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-nav="1" aria-label="다음">›</button>
+  <p class="lightbox__cap" data-lb-cap></p>
+</div>
+<div class="toast" data-toast role="status"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
